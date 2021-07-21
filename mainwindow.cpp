@@ -12,6 +12,10 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     initWindow ();
+    ui->comboBox->addItem("BC-310");
+    ui->comboBox->addItem("BC-300");
+    ui->comboBox->addItem("BC-380");
+    ui->comboBox->addItem("BC-720");
 }
 
 MainWindow::~MainWindow()

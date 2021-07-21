@@ -17,7 +17,7 @@ void dBFileNames();
 void addFileName();
 int pobierzIloscPlikow(int iloscPlikow);
 void dBWczytajSuroweDane();
-
+void dBSourceDates();
 
 
 signals:
